@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Custom sports uniforms and T-shirts for schools and teams. Quality design, printing, and delivery.">
+    <title>Custom Sports Uniforms & T-Shirts</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Custom Sports Uniforms & T-Shirts</h1>
+        <nav>
+            <a href="#about">About</a> | <a href="#products">Products</a> | <a href="#testimonials">Testimonials</a> | <a href="#gallery">Gallery</a> | <a href="#contact">Get a Quote</a>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <div>
+            <h2>Custom Uniforms for Schools & Teams</h2>
+            <p>Design personalized sports uniforms and T-shirts that stand out. Quality, customization, and fast delivery.</p>
+            <a href="#contact" class="cta-button">Get Started</a>
+        </div>
+    </section>
+    
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We specialize in creating high-quality, customized sports uniforms for schools, teams, and events. From jerseys to T-shirts, we handle design, printing, and delivery to bring your vision to life. With years of experience, we ensure every piece meets your standards.</p>
+    </section>
+    
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="products">
+            <div class="product">
+                <h3>Sports Uniforms</h3>
+                <p>Custom jerseys, shorts, and accessories for schools and sports teams. Choose colors, logos, and materials.</p>
+                <p>Starting at $25 per piece (bulk discounts available).</p>
+            </div>
+            <div class="product">
+                <h3>Custom T-Shirts</h3>
+                <p>Personalized T-shirts for events, promotions, or teams. Add text, graphics, or photos.</p>
+                <p>Starting at $15 per shirt.</p>
+            </div>
+            <div class="product">
+                <h3>Customization Options</h3>
+                <p>Screen printing, embroidery, or DTG printing. We work with your designs or create them from scratch.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="testimonials">
+        <h2>What Our Clients Say</h2>
+        <div class="testimonials">
+            <blockquote>"Amazing quality uniforms for our school team! Fast turnaround and great customization." - John D., High School Coach</blockquote>
+            <blockquote>"Perfect T-shirts for our event. Highly recommend!" - Sarah L., Event Organizer</blockquote>
+        </div>
+    </section>
+    
+    <section id="gallery">
+        <h2>Our Work</h2>
+        <div class="slider">
+            <img src="uniform1.jpg" alt="School basketball uniforms">
+            <img src="tshirt1.jpg" alt="Custom event T-shirts">
+            <img src="uniform2.jpg" alt="Soccer team jerseys">
+            <img src="tshirt2.jpg" alt="Branded promotional shirts">
+        </div>
+        <button id="prev">Previous</button>
+        <button id="next">Next</button>
+    </section>
+    
+    <section id="contact">
+        <h2>Get a Custom Quote</h2>
+        <form id="quoteForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <input type="text" id="school" placeholder="School/Team Name">
+            <textarea id="details" placeholder="Describe your customization needs (e.g., colors, logos, quantity)" rows="5" required></textarea>
+            <button type="submit">Send Quote Request</button>
+        </form>
+        <p id="formMessage"></p>
+        <p>Or call us at (123) 456-7890.</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 Custom Sports Uniforms & T-Shirts. All rights reserved.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
